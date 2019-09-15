@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
                     .repeat(1)
                     .playOn(texto_animar)
         }
-        //Aqui
 
     }
 }
