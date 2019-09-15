@@ -13,11 +13,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn.setOnClickListener {
-            YoYo.with(Techniques.BounceIn)
+            YoYo.with(Techniques.Shake)
                     .duration(700)
-                    .repeat(1)
+                    .repeat(YoYo.INFINITE)
                     .playOn(texto_animar)
         }
+
+        btn.callOnClick()
 
     }
 }
