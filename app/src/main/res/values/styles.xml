@@ -6,6 +6,14 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/customTransition</item>
+    </style>
+
+    <style name="customTransition" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slede_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slede_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slede_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slede_out_right</item>
     </style>
 
 </resources>

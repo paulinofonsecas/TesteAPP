@@ -14,7 +14,7 @@ class ActivityPrincipal : AppCompatActivity() {
 
     fun abrirActivity2(view: View){
         startActivity(Intent(this, Activicty2::class.java))
-        overridePendingTransition(R.anim.slede_in_right, R.anim.slede_out_left)
+//        overridePendingTransition(R.anim.slede_in_right, R.anim.slede_out_left)
     }
 
 }
